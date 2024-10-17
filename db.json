@@ -1,0 +1,104 @@
+{
+  "Cars": [
+    {
+      "id": "0",
+      "name": "Alice Johnson",
+      "model": "Toyota Camry",
+      "year": 2018,
+      "cc": 2494,
+      "price": 3256000,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2018-toyota-camry-xse-02-debfe7caa233dcd01faf3286b277b68968f9f49e-1532987893.jpg?crop=1xw:0.8184143222506394xh;center,top&resize=640:*",
+      "amount": 10
+    },
+    {
+      "id": "1",
+      "name": "Bob Smith",
+      "model": "Honda Accord",
+      "year": 2020,
+      "cc": 1996,
+      "price": 3700000,
+      "image": "https://vehicle-images.dealerinspire.com/598b-110007233/thumbnails/large/1HGCY2F83SA004041/da49651b98cdd62ebddf4d7e720edaa9.jpg",
+      "amount": 10
+    },
+    {
+      "id": "2",
+      "name": "Charlie Brown",
+      "model": "Ford Mustang",
+      "year": 2019,
+      "cc": 4951,
+      "price": 5180000,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/bullitt2-1533740022.jpg?resize=640:*",
+      "amount": 12
+    },
+    {
+      "id": "3",
+      "name": "Dana White",
+      "model": "Chevrolet Malibu",
+      "year": 2017,
+      "cc": 1490,
+      "price": 2664000,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2019-chevrolet-malibu-rs-117-1568289288.jpg?crop=0.830xw:0.678xh;0.0913xw,0.202xh&resize=640:*",
+      "amount": 5
+    },
+    {
+      "id": "4",
+      "name": "Eve Davis",
+      "model": "BMW 3 Series",
+      "year": 2021,
+      "cc": 1998,
+      "price": 6216000,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2025-bmw-3-series-109-66562dcbe3d2b.jpg?crop=0.777xw:0.582xh;0.0902xw,0.227xh&resize=640:*",
+      "amount": 20
+    },
+    {
+      "id": "5",
+      "name": "Frank Wright",
+      "model": "Audi A4",
+      "year": 2022,
+      "cc": 1984,
+      "price": 6660000,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2022-audi-a4-mmp-1-1621027611.jpg?crop=0.885xw:0.663xh;0.0545xw,0.166xh&resize=640:*",
+      "amount": 7
+    },
+    {
+      "id": "6",
+      "name": "Grace Lee",
+      "model": "Mercedes-Benz C-Class",
+      "year": 2021,
+      "cc": 1991,
+      "price": 6956000,
+      "image": "https://cars.topauto.co.za/price/assets/images/uploadimages/Mercedes-Benz-C-Class-Edition-6--MQ6.0.20210824210739--2021.webp",
+      "amount": 15
+    },
+    {
+      "id": "7",
+      "name": "Hank Miller",
+      "model": "Tesla Model S",
+      "year": 2020,
+      "cc": 0,
+      "price": 11840000,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2020-tesla-model-s-cheetah-101-1597276810.jpg?crop=0.833xw:0.556xh;0.0929xw,0.314xh&resize=640:*",
+      "amount": 9
+    },
+    {
+      "id": "8",
+      "name": "Ivy Collins",
+      "model": "Nissan Altima",
+      "year": 2018,
+      "cc": 2488,
+      "price": "3,404,000",
+      "image": "https://vehicle-images.dealerinspire.com/c4fe-110007085/thumbnails/large/1N4BL2AP0CC130456/82e1c22172d290983ac571d0d70bbe74.jpg",
+      "amount": 7
+    },
+    {
+      "id": "9",
+      "name": "Jack Wilson",
+      "model": "Mercedes Benz G-Class 550 Sport",
+      "year": 2023,
+      "cc": 2488,
+      "price": " 38,480,000",
+      "image": "https://vehicle-images.dealerinspire.com/a828-11001147/thumbnails/large/W1NWH5AB3SX019337/3e5b900a6040fb0920b30fd5cf7ba27c.jpg",
+      "amount": 5
+    }
+  ]
+}

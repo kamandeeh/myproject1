@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-light bg-gradient">
+    <!-- navbar -->
+     <div id="navbar" class="bg-secondary bg-gradient">
+     <h1>ADRIAN CO.</h1>
+    
+     <a href="#" class="bg-dark bg-gradient">HOME</a>
+     <a href="#cars" class="bg-dark bg-gradient">DELIVERY APPLICATION</a>
+     <a href="#contact" class="bg-dark bg-gradient">CONTACT US</a>
+    </div>
+</div>
+
+    
+        
+    
+<br>
+    <!--about us-->
+    <div id="aboutUs">
+        <div class="shadow p-3 mb-5 bg-body rounded">
+        <h3>About Us</h3>
+        </div>
+    <p>At Adrian Co., we specialize in bringing <strong>the world's finest vehicles to your doorstep.</strong> With years of experience in car importation, we pride ourselves on offering a <u>seamless</u>, <u>reliable</u>, and <u>transparent process</u>. Whether you're looking for luxury cars, rare models, or high-performance vehicles, we are committed to finding the perfect match for you. Our dedicated team handles everything from sourcing and shipping to customs clearance and delivery, ensuring your vehicle arrives in pristine condition. Driven by passion and excellence, Adrian Co. is your trusted partner for all your car importation needs.</p>
+    </div>
+    <br> 
+   
+     <!-- List -->
+      <div id="delivery"class="shadow p-3 mb-5 bg-body rounded">
+        <h3>List Of Cars Available</h3>
+      </div>
+      <div class="container mt-5">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addCarModal">
+            Add Car
+        </button>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="addCarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add New Car</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="carForm">
+                            <div class="mb-3">
+                                <label for="carName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="carName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="carModel" class="form-label">Car Model</label>
+                                <input type="text" class="form-control" id="carModel" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Year:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div>
+                                <label class="form-label">CC:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="carPrice" class="form-label">Car Price</label>
+                                <input type="text" class="form-control" id="carPrice" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Cars Available:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="carImage" class="form-label">Car Image URL</label>
+                                <input type="text" class="form-control" id="carImage" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Car</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Car List Container -->
+ <div class="container mt-5" id="cars-container"></div>    
+ <div class="col-md-3">
+          <div class="bg-light p-1">
+            <div id="carmodel">
+              <h5 class="fw-bold"></h5>
+            </div>
+            <div id="carname"></div>
+            <div id="caryear"></div>
+            <div id="carcc"></div>
+            <div id="carprice"></div>
+            <div id="caramount-${car.id}"></div>
+            <br><br>
+            <div id="Purchase">
+              <button>Purchase</button>
+            </div>
+          </div>
+        </div>
+
+        
+
+     <!-- footer -->
+        <div id="footer" class="bg-dark bg-gradient">
+            <p>All Rights Reserved</p>
+            <p>@2024</p>
+        </div>
+                    
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+<!-- <div class="container mt-5">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Add Post</button>
+    <div class="modal" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Car Post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                    <div class="modal-body">
+                        <form>
+                            <div>
+                                <label class="form-label">Name of Seller:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Model:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Year:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div>
+                                <label class="form-label">CC:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Price:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Cars Available:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>   
+                        <button type="submit" class="btn btn-primary">Cancel</button> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> -->
