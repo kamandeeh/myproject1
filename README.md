@@ -1,4 +1,4 @@
-The app is my Portfolio, 17/09/2024
+The app is phase 1 project, 17/09/2024
 By Zuruel Kamande
 Description
 The application includes a landing page showing what i do, my education background, some of my projects and their links to my github and my contact information.
